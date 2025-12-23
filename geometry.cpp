@@ -27,7 +27,7 @@ double Vec::dot(const Vec& v) const {
     return x*v.x + y*v.y + z*v.z;
 }
 
-// Векторное произведение (формула из матанализа/геометрии)
+// Векторное произведение 
 Vec Vec::cross(const Vec& v) const {
     return Vec(
         y*v.z - z*v.y,
